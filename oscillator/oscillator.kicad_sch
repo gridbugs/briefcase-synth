@@ -2081,12 +2081,6 @@
 		(uuid "851e6b67-2f7e-46dc-b2a6-9e673a92f54e")
 	)
 	(junction
-		(at 73.66 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91b87963-c983-40a1-8107-c4480728a6b8")
-	)
-	(junction
 		(at 140.97 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2584,16 +2578,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 83.82) (xy 73.66 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7181895e-832d-4ba7-bae7-e8f85106655f")
-	)
-	(wire
-		(pts
 			(xy 191.77 135.89) (xy 191.77 132.08)
 		)
 		(stroke
@@ -2924,23 +2908,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 124.46) (xy 73.66 125.73)
+			(xy 73.66 83.82) (xy 73.66 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b13ddc8c-9999-4f08-b3c6-7a0bc80aac62")
-	)
-	(wire
-		(pts
-			(xy 107.95 127) (xy 107.95 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b51b6503-ce17-4397-971a-e77a9b73e3b5")
 	)
 	(wire
 		(pts
@@ -2951,16 +2925,6 @@
 			(type default)
 		)
 		(uuid "b5f1f79f-ae92-4a84-b493-dc8db7764b4f")
-	)
-	(wire
-		(pts
-			(xy 96.52 124.46) (xy 107.95 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b87094ba-88a6-4781-b5b6-d1823aee5f7b")
 	)
 	(wire
 		(pts
@@ -3252,18 +3216,8 @@
 		)
 		(uuid "fd8c31ea-fd92-4859-a99f-7f270b03be9f")
 	)
-	(wire
-		(pts
-			(xy 73.66 124.46) (xy 88.9 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe0c819b-993d-4a53-adac-f3201740667e")
-	)
 	(rectangle
-		(start 19.05 120.65)
+		(start 17.78 118.11)
 		(end 118.11 182.88)
 		(stroke
 			(width 0)
@@ -3455,29 +3409,10 @@
 		)
 		(uuid "a784da36-54e9-4c26-8a8e-9ebb35c6775f")
 	)
-	(text_box "This voltage divider scales the PWM control voltage such that a full turn of RV2 scales the duty cycle from 0% to 100%."
+	(text_box "PWM Input\n\nRV2 controls a fixed PWM offset.\n\nRV3 controls the degree to which the PWM CV Input affects the PWM.\n\nThere will be a small amount of interaction between the two potentiometers as current from the 12V pin of RV2 will flow through RV3 to ground. This means that they don't work completely independnatly from one another, however the effect is minimal. A full turn of RV2 will saturate its signal at about 80% of the turn but this is acceptible as a fuzz factor to cover the result of interactions between RV2 and RV3."
 		(exclude_from_sim no)
-		(at 81.28 133.35 0)
-		(size 29.21 11.43)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d56dd44c-505c-4cc8-8dce-feef438a2d90")
-	)
-	(text_box "PWM Input\n\nRV2 controls a fixed PWM offset.\n\nRV3 controls the degree to which the PWM CV Input affects the PWM."
-		(exclude_from_sim no)
-		(at 20.32 121.92 0)
-		(size 38.1 19.05)
+		(at 19.05 119.38 0)
+		(size 44.45 38.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -3514,7 +3449,7 @@
 	)
 	(text_box "Buffer amp for PWM control voltage input"
 		(exclude_from_sim no)
-		(at 81.28 148.59 0)
+		(at 82.55 142.24 0)
 		(size 16.51 8.89)
 		(stroke
 			(width 0)
@@ -3760,73 +3695,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 92.71 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15225f49-5a01-434e-bd81-6be326acbc56")
-		(property "Reference" "R14"
-			(at 92.71 127.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "13K"
-			(at 92.71 130.048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.964 123.444 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 92.71 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "41cac740-6b6c-49fe-ad01-bc3ffcf43888")
-		)
-		(pin "1"
-			(uuid "aaa7ae4e-4cff-4a62-9cea-0c7a4ea3a10a")
-		)
-		(instances
-			(project "oscillator"
-				(path "/7dd35790-78ae-4a1f-bde7-c41292af2ddc"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 73.66 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3844,7 +3712,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "470K"
 			(at 76.2 130.8099 0)
 			(effects
 				(font
@@ -4507,72 +4375,6 @@
 			(project "oscillator"
 				(path "/7dd35790-78ae-4a1f-bde7-c41292af2ddc"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e7712d4-339d-43d2-9f6c-3adfeae97998")
-		(property "Reference" "#PWR022"
-			(at 107.95 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "382d4e24-0882-4de1-956a-95d59de90047")
-		)
-		(instances
-			(project "oscillator"
-				(path "/7dd35790-78ae-4a1f-bde7-c41292af2ddc"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
