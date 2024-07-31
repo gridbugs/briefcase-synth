@@ -3447,10 +3447,10 @@
 		)
 		(uuid "f1179b6f-72cf-425a-90c1-b399914d93a5")
 	)
-	(text_box "Buffer amp for PWM control voltage input"
+	(text_box "Non-inverting voltage adder to add the outputs of RV2 and RV3. This is imperfect since current can flow between RV2 and RV3 which means that even when nothing is attached to the PWM CV input, turning RV3 will have a small effect on the pulse width."
 		(exclude_from_sim no)
-		(at 82.55 142.24 0)
-		(size 16.51 8.89)
+		(at 82.55 127 0)
+		(size 27.94 25.4)
 		(stroke
 			(width 0)
 			(type default)
