@@ -3428,10 +3428,10 @@
 		)
 		(uuid "e319bd17-b43b-4460-9cbf-fd4e4ff447c1")
 	)
-	(text_box "Switch to toggle between an audio frequency oscillator and a low-frequency oscillator."
+	(text_box "Switch to toggle between an audio frequency oscillator and a low-frequency oscillator.\n\nHigher capacitance means a lower frequency. The design this is based off used lower valued capacitors here but I found these values to produce a more useful low-end of the frequency spectrum produced by the oscillator."
 		(exclude_from_sim no)
 		(at 246.38 115.57 0)
-		(size 24.13 12.7)
+		(size 24.13 38.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -6673,8 +6673,8 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
-			(at 240.03 142.748 90)
+		(property "Value" "4.7nF"
+			(at 240.03 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
