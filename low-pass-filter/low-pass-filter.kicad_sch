@@ -2854,6 +2854,12 @@
 		(uuid "14a61272-40bf-4ab4-b7d3-0aa66ae1079f")
 	)
 	(junction
+		(at 143.51 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "235d275d-3f13-4f67-ac01-2820a5cf1f70")
+	)
+	(junction
 		(at 236.22 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2870,6 +2876,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3577cc33-c217-4d7d-a362-761746617287")
+	)
+	(junction
+		(at 168.91 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38a07350-5343-49a5-b56b-4315fd88a210")
 	)
 	(junction
 		(at 229.87 40.64)
@@ -2950,22 +2962,10 @@
 		(uuid "b9bc526d-1baf-4b2e-ad87-8fd6d751cf66")
 	)
 	(junction
-		(at 143.51 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c520b9bc-9fff-450d-81d8-85277e8a1234")
-	)
-	(junction
 		(at 97.79 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb3063ff-a1ff-49c8-af38-233e224188e9")
-	)
-	(junction
-		(at 168.91 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d26f6ed2-f17e-416b-97f4-4e431f6be5fc")
 	)
 	(junction
 		(at 90.17 91.44)
@@ -3221,16 +3221,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 44.45) (xy 172.72 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1da7bd1b-ef2b-4d2d-adcf-393a6f10c4a6")
-	)
-	(wire
-		(pts
 			(xy 149.86 106.68) (xy 149.86 130.81)
 		)
 		(stroke
@@ -3471,6 +3461,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 44.45) (xy 157.48 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529caf5b-907d-4520-b9f4-346b5c121a4c")
+	)
+	(wire
+		(pts
 			(xy 129.54 173.99) (xy 129.54 171.45)
 		)
 		(stroke
@@ -3631,23 +3631,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 36.83) (xy 168.91 44.45)
+			(xy 168.91 44.45) (xy 172.72 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "700981f6-b745-4ac6-8af9-06218261aa73")
-	)
-	(wire
-		(pts
-			(xy 143.51 44.45) (xy 168.91 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7210eb8c-3c8d-4aee-a4a2-728a2c0e3b75")
+		(uuid "71f0c870-506b-4efc-b6ee-6d932c357955")
 	)
 	(wire
 		(pts
@@ -3718,16 +3708,6 @@
 			(type default)
 		)
 		(uuid "812c1ca6-b487-4b7b-bed3-007a4dfd0022")
-	)
-	(wire
-		(pts
-			(xy 168.91 25.4) (xy 168.91 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831de373-1f8b-4e9e-bba1-fd599eb26a0d")
 	)
 	(wire
 		(pts
@@ -3808,6 +3788,16 @@
 			(type default)
 		)
 		(uuid "a554ba99-365d-4f75-b690-966c62c3deec")
+	)
+	(wire
+		(pts
+			(xy 143.51 44.45) (xy 152.4 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a603908d-0f4a-4dc8-bfda-03a28677cfb2")
 	)
 	(wire
 		(pts
@@ -4048,6 +4038,16 @@
 			(type default)
 		)
 		(uuid "e493cf6a-30ef-4395-b834-1ce7c4b64c34")
+	)
+	(wire
+		(pts
+			(xy 168.91 25.4) (xy 168.91 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9045b4c-53a9-4683-b213-bfcb21091671")
 	)
 	(wire
 		(pts
@@ -5054,7 +5054,7 @@
 			(uuid "5472dd0b-5462-49fd-af3d-874c1f2c2d15")
 		)
 		(instances
-			(project "low-pass-filter"
+			(project ""
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U3")
 					(unit 2)
@@ -5209,7 +5209,7 @@
 			(uuid "5472dd0b-5462-49fd-af3d-874c1f2c2d16")
 		)
 		(instances
-			(project "low-pass-filter"
+			(project ""
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U3")
 					(unit 3)
@@ -7666,7 +7666,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 168.91 34.29 0)
+		(at 154.94 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7674,7 +7674,7 @@
 		(dnp no)
 		(uuid "a9ce2fe2-8d95-4ae9-8ae5-da4021417619")
 		(property "Reference" "C4"
-			(at 163.576 33.528 0)
+			(at 153.3525 38.4175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7683,7 @@
 			)
 		)
 		(property "Value" "470nf"
-			(at 160.782 36.068 0)
+			(at 152.0825 40.9575 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +7692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 34.29 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +7701,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 34.29 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +7710,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 34.29 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +7906,7 @@
 			(uuid "b8064f2d-1599-4f7e-bb77-fa50ba24ad46")
 		)
 		(instances
-			(project "low-pass-filter"
+			(project ""
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "SW1")
 					(unit 1)
@@ -8289,7 +8289,7 @@
 			(uuid "e1b5df0e-6e40-4a14-8ed3-038840ea9b06")
 		)
 		(instances
-			(project "low-pass-filter"
+			(project ""
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR023")
 					(unit 1)
@@ -8726,7 +8726,7 @@
 			(uuid "5472dd0b-5462-49fd-af3d-874c1f2c2d17")
 		)
 		(instances
-			(project "low-pass-filter"
+			(project ""
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U3")
 					(unit 1)
