@@ -4261,7 +4261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 130.556 167.386 90)
 			(effects
 				(font
@@ -4395,7 +4395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 229.87 82.55 0)
 			(effects
 				(font
@@ -4494,7 +4494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 115.316 167.894 90)
 			(effects
 				(font
@@ -4561,7 +4561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 138.176 72.136 90)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 29.21 120.65 0)
 			(effects
 				(font
@@ -4892,7 +4892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 33.655 60.96 0)
 			(effects
 				(font
@@ -5002,7 +5002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 25.4 185.42 0)
 			(effects
 				(font
@@ -5089,7 +5089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 115.316 145.034 90)
 			(effects
 				(font
@@ -5157,7 +5157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 33.02 138.43 0)
 			(effects
 				(font
@@ -5310,7 +5310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 81.3435 85.7885 90)
 			(effects
 				(font
@@ -5380,7 +5380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 220.726 106.426 90)
 			(effects
 				(font
@@ -5447,7 +5447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 204.47 55.245 0)
 			(effects
 				(font
@@ -5558,7 +5558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 192.024 66.294 90)
 			(effects
 				(font
@@ -5673,7 +5673,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "37852b67-fa37-4ada-a3f5-23410a67c1f2")
 		(property "Reference" "R17"
@@ -5694,7 +5694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 73.406 48.006 90)
 			(effects
 				(font
@@ -5829,7 +5829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 39.37 120.65 0)
 			(effects
 				(font
@@ -6078,10 +6078,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "459eedb4-78c1-4fc2-9c66-a21e0d222fa5")
-		(property "Reference" "Resonance"
+		(property "Reference" "Resonance1"
 			(at 113.792 40.64 90)
 			(effects
 				(font
@@ -6099,7 +6099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_T-16L_Single_Vertical_Hole"
 			(at 118.11 44.45 0)
 			(effects
 				(font
@@ -6147,7 +6147,7 @@
 		(instances
 			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
-					(reference "Resonance")
+					(reference "Resonance1")
 					(unit 1)
 				)
 			)
@@ -6178,7 +6178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 260.604 114.554 90)
 			(effects
 				(font
@@ -6315,7 +6315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 243.84 95.25 0)
 			(effects
 				(font
@@ -6384,7 +6384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 237.49 40.64 0)
 			(effects
 				(font
@@ -6451,7 +6451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 137.16 97.79 0)
 			(effects
 				(font
@@ -6721,7 +6721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 233.934 141.986 90)
 			(effects
 				(font
@@ -6857,7 +6857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 192.024 43.434 90)
 			(effects
 				(font
@@ -6924,7 +6924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 220.726 123.444 90)
 			(effects
 				(font
@@ -6993,7 +6993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 207.01 27.94 0)
 			(effects
 				(font
@@ -7166,7 +7166,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 245.11 81.28 0)
 			(effects
 				(font
@@ -7272,7 +7272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 242.824 147.574 90)
 			(effects
 				(font
@@ -7341,7 +7341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 105.156 155.956 90)
 			(effects
 				(font
@@ -7408,7 +7408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 235.204 106.426 90)
 			(effects
 				(font
@@ -7522,10 +7522,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "a16aead9-1c35-41de-ac54-a535d6e046e1")
-		(property "Reference" "CVLevel"
+		(property "Reference" "CVLevel1"
 			(at 212.598 139.7 0)
 			(effects
 				(font
@@ -7543,7 +7543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal"
 			(at 214.63 140.97 0)
 			(effects
 				(font
@@ -7591,7 +7591,7 @@
 		(instances
 			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
-					(reference "CVLevel")
+					(reference "CVLevel1")
 					(unit 1)
 				)
 			)
@@ -7691,7 +7691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 154.94 44.45 0)
 			(effects
 				(font
@@ -7759,7 +7759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 29.21 84.455 0)
 			(effects
 				(font
@@ -7849,7 +7849,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a19d39-9277-468c-ac6d-f387881d558b")
@@ -7988,10 +7988,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "b5b931e0-cdeb-48f3-b43e-802d2ec78239")
-		(property "Reference" "Cutoff"
+		(property "Reference" "Cutoff1"
 			(at 243.84 159.258 90)
 			(effects
 				(font
@@ -8007,7 +8007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal"
 			(at 243.84 156.21 0)
 			(effects
 				(font
@@ -8055,7 +8055,7 @@
 		(instances
 			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
-					(reference "Cutoff")
+					(reference "Cutoff1")
 					(unit 1)
 				)
 			)
@@ -8087,7 +8087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 30.48 49.53 0)
 			(effects
 				(font
@@ -8324,7 +8324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 98.806 98.044 90)
 			(effects
 				(font
@@ -8394,7 +8394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 134.62 130.81 0)
 			(effects
 				(font
@@ -8565,7 +8565,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 29.21 103.505 0)
 			(effects
 				(font
@@ -8674,7 +8674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 82.55 93.98 0)
 			(effects
 				(font
@@ -8762,7 +8762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 243.84 82.55 0)
 			(effects
 				(font
@@ -8861,7 +8861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 176.276 45.466 90)
 			(effects
 				(font
@@ -8997,7 +8997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 139.7 53.34 0)
 			(effects
 				(font
@@ -9235,7 +9235,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 138.43 83.82 0)
 			(effects
 				(font
@@ -9302,7 +9302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 129.54 156.845 0)
 			(effects
 				(font
@@ -9477,7 +9477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 176.784 66.294 90)
 			(effects
 				(font
@@ -9546,7 +9546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 149.86 104.14 0)
 			(effects
 				(font
@@ -9682,7 +9682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 98.806 85.344 90)
 			(effects
 				(font
@@ -9752,7 +9752,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 252.476 139.954 90)
 			(effects
 				(font
@@ -9821,7 +9821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 119.126 59.436 90)
 			(effects
 				(font
