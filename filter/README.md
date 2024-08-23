@@ -13,8 +13,9 @@
   if necessary.
 - The circuit has a bug where the volume of the self-oscillation
   signal drops quickly above a certain frequency. This has the effect
-  of limiting the effect of resonance. Not sure whether this is a bug
-  in the design or implementation.
+  of limiting the effect of resonance. This is only a bug in the final
+  implementation of the filter; breadboard implementations of the
+  design don't have this problem.
 - The stripboard is slightly too large to comfortably fit in the case.
 - Using a safety pin to group cables together and drilling a hole in
   the stripboard for cable management was effective at reducing the
