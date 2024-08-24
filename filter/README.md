@@ -23,3 +23,11 @@
   starting work on the front panel.
 - Build a subset of the circuit first. Use self-oscillation to test
   the circuit incrementally as it's built.
+  
+## 2024-08-25
+
+- Rebuilt about half the circuit, intermittently testing against a
+  breadboard implementation.
+- One issue that came up was the cutoff potentiometer not responding
+  sometimes. Reflowing its connection to the board seemed to fix the
+  problem.
