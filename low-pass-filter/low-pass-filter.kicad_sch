@@ -3814,10 +3814,10 @@
 		)
 		(uuid "c7b35589-9f3c-4cc2-9c40-7a44c98f1a09")
 	)
-	(text_box "Voltage controlled filter with resonance dial and a high-pass/low-pass selector switch.\n\nBased off the design here: https://www.lookmumnocomputer.com/projects#/simple-filter"
+	(text_box "Voltage controlled low-pass filter with resonance dial.\n\nBased off the design here: https://www.lookmumnocomputer.com/projects#/simple-filter"
 		(exclude_from_sim no)
 		(at 13.97 13.97 0)
-		(size 66.04 15.875)
+		(size 66.04 11.43)
 		(stroke
 			(width 0)
 			(type default)
@@ -3893,7 +3893,7 @@
 			(uuid "d8a078d2-87ff-4d80-a787-635b1c79e64c")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R5")
 					(unit 1)
@@ -3958,7 +3958,7 @@
 			(uuid "5fbf896d-8360-4a21-95c5-14d595de4bb7")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR011")
 					(unit 1)
@@ -4057,7 +4057,7 @@
 			(uuid "ccc9517c-b286-4907-9ffb-c9728455bfe8")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "Q2")
 					(unit 1)
@@ -4126,7 +4126,7 @@
 			(uuid "3c3c403f-cd89-4e89-ae39-8eeaa5d0cabe")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R3")
 					(unit 1)
@@ -4193,7 +4193,7 @@
 			(uuid "3ddb7aa6-0bed-450b-a399-36bd82f914b6")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R6")
 					(unit 1)
@@ -4262,7 +4262,7 @@
 			(uuid "53a7f34c-4104-45f4-9694-fd93bfc84a9a")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "C1")
 					(unit 1)
@@ -4327,7 +4327,7 @@
 			(uuid "6da8473e-6982-4841-b7a1-035af57268b1")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR017")
 					(unit 1)
@@ -4436,7 +4436,7 @@
 			(uuid "c756e5f6-91a4-4755-a4db-3f976b3a1115")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U1")
 					(unit 5)
@@ -4522,7 +4522,7 @@
 			(uuid "5472dd0b-5462-49fd-af3d-874c1f2c2d15")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U3")
 					(unit 2)
@@ -4591,7 +4591,7 @@
 			(uuid "6bc79923-33e6-4d44-82fc-b64baac568e1")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R1")
 					(unit 1)
@@ -4677,7 +4677,7 @@
 			(uuid "5472dd0b-5462-49fd-af3d-874c1f2c2d16")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U3")
 					(unit 3)
@@ -4743,7 +4743,7 @@
 			(uuid "9a60b12a-a655-4a4d-86f3-b204f9552f01")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR020")
 					(unit 1)
@@ -4813,7 +4813,7 @@
 			(uuid "8244d66b-0781-4bd0-bc7b-83d26e52369c")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R12")
 					(unit 1)
@@ -4922,7 +4922,7 @@
 			(uuid "fa42a225-03e0-4dfb-8569-5f3af4a210f7")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U1")
 					(unit 1)
@@ -4991,7 +4991,7 @@
 			(uuid "22e7701f-5cf9-4b60-9586-b9d1b0d97486")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R9")
 					(unit 1)
@@ -5058,7 +5058,7 @@
 			(uuid "f11cf598-fe7e-446c-8f73-74d2a419afc5")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR012")
 					(unit 1)
@@ -5124,7 +5124,7 @@
 			(uuid "b9fa1312-ef2c-4ed8-8169-fdde4b09b5d3")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR016")
 					(unit 1)
@@ -5193,7 +5193,7 @@
 			(uuid "e199e0c4-f9cf-4168-82ff-6c5a61699907")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "C2")
 					(unit 1)
@@ -5259,7 +5259,7 @@
 			(uuid "5ea7adde-ce76-4496-bd68-e6d785898e8c")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR010")
 					(unit 1)
@@ -5326,7 +5326,7 @@
 			(uuid "14a3483b-22a5-4785-8ee5-ac0be4128a94")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR05")
 					(unit 1)
@@ -5393,7 +5393,7 @@
 			(uuid "9c88494d-ad8d-4c6d-a641-ce24e9a6ab09")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR021")
 					(unit 1)
@@ -5475,7 +5475,7 @@
 			(uuid "1aa8a7ab-1f70-4ff3-bdc5-4f071db5b0f2")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "Resonance1")
 					(unit 1)
@@ -5542,7 +5542,7 @@
 			(uuid "e12cf79f-2769-41b4-ba5d-9b12718dddf2")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R14")
 					(unit 1)
@@ -5609,7 +5609,7 @@
 			(uuid "6fb073da-40a6-44ee-99c9-aa55c99e7b01")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR018")
 					(unit 1)
@@ -5679,7 +5679,7 @@
 			(uuid "677cd8c7-d348-4fda-a280-9303d0cd4b08")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "C5")
 					(unit 1)
@@ -5748,7 +5748,7 @@
 			(uuid "0b268c27-6127-4dcf-80df-d973e87604d5")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "C6")
 					(unit 1)
@@ -5815,7 +5815,7 @@
 			(uuid "fa7b78bb-456a-45a4-8105-3ab00422ec27")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "D2")
 					(unit 1)
@@ -5882,7 +5882,7 @@
 			(uuid "4178095e-a510-4c6e-a898-c358ae6b20d0")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR015")
 					(unit 1)
@@ -5949,7 +5949,7 @@
 			(uuid "d62b17d0-23ee-4de9-9388-8427717ee499")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR019")
 					(unit 1)
@@ -6015,7 +6015,7 @@
 			(uuid "d15550c3-5873-449c-bfc1-d98df29083ce")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR09")
 					(unit 1)
@@ -6085,7 +6085,7 @@
 			(uuid "517f8f58-fdc5-41ed-abc0-e808002d17a8")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R21")
 					(unit 1)
@@ -6152,7 +6152,7 @@
 			(uuid "c57deefd-287c-47bd-a33b-ec443664cdf0")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR06")
 					(unit 1)
@@ -6221,7 +6221,7 @@
 			(uuid "b3f61351-ca95-4d07-81a4-9f712cdf9979")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R11")
 					(unit 1)
@@ -6288,7 +6288,7 @@
 			(uuid "a232d2c0-fd14-4ea2-a320-ad8c3bdea442")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R7")
 					(unit 1)
@@ -6393,7 +6393,7 @@
 			(uuid "3e157ca7-4b20-4610-930c-ffb371da1e88")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U2")
 					(unit 3)
@@ -6460,7 +6460,7 @@
 			(uuid "79901bea-d790-490d-bae2-83bd2fdc8b63")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR07")
 					(unit 1)
@@ -6566,7 +6566,7 @@
 			(uuid "02357055-d1c7-4d0f-bb02-10b564248fbb")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U2")
 					(unit 4)
@@ -6636,7 +6636,7 @@
 			(uuid "1dad0891-207d-4879-863a-33d29363bbbf")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R16")
 					(unit 1)
@@ -6705,7 +6705,7 @@
 			(uuid "95082fea-33e1-48c5-92dc-d979b822b491")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R2")
 					(unit 1)
@@ -6772,7 +6772,7 @@
 			(uuid "e6a0e3f3-dbb4-4537-bdc6-8b94142c4384")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R13")
 					(unit 1)
@@ -6837,7 +6837,7 @@
 			(uuid "2c9ed9bd-ecf3-4c84-bb29-206ed31fc32f")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR013")
 					(unit 1)
@@ -6919,7 +6919,7 @@
 			(uuid "2029bfb1-3c3d-48fb-a001-a33a2386ddab")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "CVLevel1")
 					(unit 1)
@@ -6986,7 +6986,7 @@
 			(uuid "37b86067-b151-4310-bb40-4511e1536975")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR026")
 					(unit 1)
@@ -7055,7 +7055,7 @@
 			(uuid "1c055661-1fe6-4b80-951e-03dd1adab18b")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "C4")
 					(unit 1)
@@ -7165,7 +7165,7 @@
 			(uuid "c72d5501-b693-43e0-bf4b-1ba7b45db850")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U1")
 					(unit 4)
@@ -7232,7 +7232,7 @@
 			(uuid "1e479e1c-fcbe-495b-b46d-44ee691fbb2a")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR027")
 					(unit 1)
@@ -7312,7 +7312,7 @@
 			(uuid "57352fd3-3e2a-42fc-aa8c-954d7b4be023")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "Cutoff1")
 					(unit 1)
@@ -7416,7 +7416,7 @@
 			(uuid "0b57ab10-65a8-43b5-b8c3-197fdb7151cf")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U2")
 					(unit 5)
@@ -7483,7 +7483,7 @@
 			(uuid "bb82c14d-5bf4-4279-bc64-8d42200923ac")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR024")
 					(unit 1)
@@ -7548,7 +7548,7 @@
 			(uuid "e1b5df0e-6e40-4a14-8ed3-038840ea9b06")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR023")
 					(unit 1)
@@ -7654,7 +7654,7 @@
 			(uuid "3e157ca7-4b20-4610-930c-ffb371da1e87")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U2")
 					(unit 2)
@@ -7721,7 +7721,7 @@
 			(uuid "90e1b249-1abd-47f3-8d32-a9a90729f920")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR02")
 					(unit 1)
@@ -7831,7 +7831,7 @@
 			(uuid "c72d5501-b693-43e0-bf4b-1ba7b45db84f")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U1")
 					(unit 2)
@@ -7931,7 +7931,7 @@
 			(uuid "4bc27d72-f1fb-4e67-beb2-d99579d99cd4")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "Q1")
 					(unit 1)
@@ -8000,7 +8000,7 @@
 			(uuid "b6a775c6-468f-426f-9d14-a36b6f5614fa")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R10")
 					(unit 1)
@@ -8065,7 +8065,7 @@
 			(uuid "3986b506-7853-4a70-9f52-af898b516374")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR025")
 					(unit 1)
@@ -8132,7 +8132,7 @@
 			(uuid "98e7875d-cb37-42ba-9b07-6859873a4843")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR04")
 					(unit 1)
@@ -8237,7 +8237,7 @@
 			(uuid "3e157ca7-4b20-4610-930c-ffb371da1e85")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U2")
 					(unit 1)
@@ -8305,7 +8305,7 @@
 			(uuid "9ba0445d-cb57-442d-85c4-6edef4fe3cd7")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR022")
 					(unit 1)
@@ -8372,7 +8372,7 @@
 			(uuid "c38281cd-e4a3-40bd-bfd8-fb5eaf6a2efb")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR01")
 					(unit 1)
@@ -8439,7 +8439,7 @@
 			(uuid "d6362de6-feb7-44cd-acd9-14a7d052fa37")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "D1")
 					(unit 1)
@@ -8548,7 +8548,7 @@
 			(uuid "fa42a225-03e0-4dfb-8569-5f3af4a210f6")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "U1")
 					(unit 3)
@@ -8614,7 +8614,7 @@
 			(uuid "aea48d40-43be-4623-ae23-38fcb0e54f32")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR014")
 					(unit 1)
@@ -8681,7 +8681,7 @@
 			(uuid "bd3eb823-c122-41a7-b4db-3b7a8f7b6096")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R8")
 					(unit 1)
@@ -8750,7 +8750,7 @@
 			(uuid "b04604d9-9ee6-464b-abbb-a639c169bdca")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "C3")
 					(unit 1)
@@ -8817,7 +8817,7 @@
 			(uuid "ee9fe285-f6e5-48e4-a871-f80099cbb484")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "#PWR03")
 					(unit 1)
@@ -8887,7 +8887,7 @@
 			(uuid "78516b86-b0ab-4836-b5c4-70b235e82c66")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R15")
 					(unit 1)
@@ -8956,7 +8956,7 @@
 			(uuid "25eacb7d-1c5b-4bd6-8da0-f7f037b154e7")
 		)
 		(instances
-			(project "filter"
+			(project "low-pass-filter"
 				(path "/e72ee090-6f9b-4823-9ab6-f31beee51bd1"
 					(reference "R4")
 					(unit 1)

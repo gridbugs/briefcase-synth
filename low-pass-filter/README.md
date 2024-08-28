@@ -1,4 +1,4 @@
-# Filter
+# Low-Pass Filter
 
 ## 2024-08-23
 
