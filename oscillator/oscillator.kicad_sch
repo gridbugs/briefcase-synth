@@ -5,259 +5,6 @@
 	(uuid "7dd35790-78ae-4a1f-bde7-c41292af2ddc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:TL072"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TL072"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL072_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL072_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL072_3_1"
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
 				(offset 0.127)
@@ -2128,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 66.04) (xy 166.37 66.04)
+			(xy 144.78 66.04) (xy 154.94 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2408,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 85.09) (xy 152.4 85.09)
+			(xy 144.78 85.09) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2978,7 +2725,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 74.93) (xy 166.37 74.93)
+			(xy 144.78 74.93) (xy 154.94 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3125,16 +2872,6 @@
 			(type default)
 		)
 		(uuid "eb1853b5-786d-4d6d-a972-a76050a5ac09")
-	)
-	(wire
-		(pts
-			(xy 157.48 85.09) (xy 166.37 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1ef454-8f76-4578-aa28-529aa28cc628")
 	)
 	(wire
 		(pts
@@ -4110,7 +3847,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 66.04 90)
+		(at 154.94 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4118,7 +3855,7 @@
 		(dnp no)
 		(uuid "2aed10df-745b-4f48-9e86-64636c621acc")
 		(property "Reference" "#PWR016"
-			(at 172.72 66.04 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +3864,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 169.672 66.04 90)
+			(at 158.242 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +3873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 66.04 0)
+			(at 154.94 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +3882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 66.04 0)
+			(at 154.94 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +3891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 66.04 0)
+			(at 154.94 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4119,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 166.37 74.93 270)
+		(at 154.94 74.93 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4391,7 +4128,7 @@
 		(dnp no)
 		(uuid "4158bf98-9e3f-4757-bdf5-e69900ed5f34")
 		(property "Reference" "#PWR018"
-			(at 162.56 74.93 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4137,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 171.45 74.93 90)
+			(at 160.02 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +4145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 74.93 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +4154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 74.93 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 166.37 74.93 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,72 +4315,6 @@
 			(project "oscillator"
 				(path "/7dd35790-78ae-4a1f-bde7-c41292af2ddc"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 255.27 40.64 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "518e0388-bffc-45c5-9345-401d4520f111")
-		(property "Reference" "#PWR024"
-			(at 251.46 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 260.35 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 255.27 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11941dcf-a9e6-4e0f-8a57-35d65df43502")
-		)
-		(instances
-			(project "oscillator"
-				(path "/7dd35790-78ae-4a1f-bde7-c41292af2ddc"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4888,73 +4559,6 @@
 				(path "/7dd35790-78ae-4a1f-bde7-c41292af2ddc"
 					(reference "U2")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 154.94 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71d0dccf-9a04-4170-afcf-88bf62309aae")
-		(property "Reference" "C2"
-			(at 152.654 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10nF"
-			(at 158.496 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 154.94 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c95d93fd-68e4-4044-bdc6-9b177feee567")
-		)
-		(pin "2"
-			(uuid "66d71e07-6891-4b0f-99b0-11e514fb2f25")
-		)
-		(instances
-			(project "oscillator"
-				(path "/7dd35790-78ae-4a1f-bde7-c41292af2ddc"
-					(reference "C2")
-					(unit 1)
 				)
 			)
 		)
@@ -5903,91 +5507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
-		(at 247.65 43.18 270)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8bca27ae-4171-462d-aefe-437c1d78b33f")
-		(property "Reference" "U3"
-			(at 247.65 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL072"
-			(at 247.65 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 247.65 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 247.65 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "9816ce0b-aa9a-4cf7-b775-9c00f040965b")
-		)
-		(pin "6"
-			(uuid "45a9e626-a729-424f-a47e-205d9e9bbf89")
-		)
-		(pin "8"
-			(uuid "390fa247-463b-478c-8788-711eb2d3c40d")
-		)
-		(pin "5"
-			(uuid "4588344d-dc9e-48a7-bd44-c63d8f7b0a77")
-		)
-		(pin "1"
-			(uuid "d058100f-0752-4b07-a6eb-40df0e1b9699")
-		)
-		(pin "2"
-			(uuid "327f1c80-98dc-4a50-8789-a1cadc542fdb")
-		)
-		(pin "4"
-			(uuid "c50e37d3-1bce-4465-9009-d9459efe2a0e")
-		)
-		(pin "3"
-			(uuid "69d3b88e-8903-4bfc-8d09-7526cbcce2a6")
-		)
-		(instances
-			(project "oscillator"
-				(path "/7dd35790-78ae-4a1f-bde7-c41292af2ddc"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 99.06 172.72 270)
 		(unit 1)
@@ -6387,7 +5906,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 85.09 90)
+		(at 154.94 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6396,7 +5915,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d6b56eb-ada5-4607-930f-14c05ef42802")
 		(property "Reference" "#PWR019"
-			(at 172.72 85.09 0)
+			(at 161.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +5924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 85.0899 90)
+			(at 158.75 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,7 +5933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 85.09 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +5942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 85.09 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +5951,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 85.09 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,71 +6776,6 @@
 			(project "oscillator"
 				(path "/7dd35790-78ae-4a1f-bde7-c41292af2ddc"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 240.03 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce9b1c96-3be4-4cf1-9cd8-9f5dec615465")
-		(property "Reference" "#PWR025"
-			(at 243.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 234.442 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 240.03 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eae9a8c6-c92c-48dd-8ae0-2aeb2b694e5e")
-		)
-		(instances
-			(project "oscillator"
-				(path "/7dd35790-78ae-4a1f-bde7-c41292af2ddc"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
