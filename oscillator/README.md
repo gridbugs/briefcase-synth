@@ -31,3 +31,9 @@
 - In the rebuilt circuit there was a short between the negative supply
   and one of the +inputs which seemed to damage a 3340's PWM
   functionality.
+
+## 2024-09-02
+
+- Built front panel. Next time need to move all components further
+  from the centre as the potentiometer pins are hard to tessellate
+  with each other and the jack sockets.
