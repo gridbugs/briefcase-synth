@@ -3013,6 +3013,25 @@
 		)
 		(uuid f0dc8ce3-f7eb-4492-a760-f38370a0e053)
 	)
+	(text_box "For R4 (between the pulse output and ground), apparently the AS3340 works better with a 51k resistor here rather than the 10k needed by the CEM3340."
+		(exclude_from_sim no)
+		(at 15.24 50.8 0)
+		(size 22.86 19.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "05a2e637-5b18-4544-ba37-abeccbe40b72")
+	)
 	(text_box "Frequency Input\n\nRV4 controls the coarse tuning of the oscilator."
 		(exclude_from_sim no)
 		(at 133.35 15.24 0)
@@ -4651,7 +4670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "51K"
 			(at 61.214 80.01 90)
 			(effects
 				(font
