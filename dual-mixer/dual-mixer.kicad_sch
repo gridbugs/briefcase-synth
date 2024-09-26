@@ -1326,16 +1326,16 @@
 		)
 	)
 	(junction
-		(at 194.31 127)
+		(at 181.61 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "01166af4-c1b1-4621-a8d2-eb8dc714f7a8")
+		(uuid "0fb23c85-9b46-4e4c-a1ba-faa98e611f26")
 	)
 	(junction
-		(at 181.61 132.08)
+		(at 194.31 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "08ebe4c4-aad3-4367-bb7f-913b8421178b")
+		(uuid "29f9677a-3c82-4340-b4ae-cae377e3026a")
 	)
 	(junction
 		(at 138.43 67.31)
@@ -1392,16 +1392,6 @@
 	(no_connect
 		(at 163.83 128.27)
 		(uuid "c6136af2-6665-4496-9a67-01c70e794bad")
-	)
-	(wire
-		(pts
-			(xy 180.34 106.68) (xy 180.34 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "085ab578-addb-4274-b806-0670cd6ab059")
 	)
 	(wire
 		(pts
@@ -1535,16 +1525,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 111.76) (xy 181.61 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "253140ec-b09c-48f9-b7a1-60d6483d645d")
-	)
-	(wire
-		(pts
 			(xy 194.31 69.85) (xy 196.85 69.85)
 		)
 		(stroke
@@ -1572,16 +1552,6 @@
 			(type default)
 		)
 		(uuid "2d2f9f7e-e946-4938-a7c6-2f5aaf86b270")
-	)
-	(wire
-		(pts
-			(xy 184.15 106.68) (xy 180.34 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "308f97b3-d37a-460d-9dd2-89e9877af5ce")
 	)
 	(wire
 		(pts
@@ -1935,6 +1905,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 148.59) (xy 194.31 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f06cf3-80c5-4771-a0c6-0fb0d4f03dfa")
+	)
+	(wire
+		(pts
 			(xy 161.29 52.07) (xy 180.34 52.07)
 		)
 		(stroke
@@ -1975,16 +1955,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 109.22) (xy 194.31 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c27b79c0-f329-48fe-92d5-2241565f096f")
-	)
-	(wire
-		(pts
 			(xy 147.32 48.26) (xy 147.32 67.31)
 		)
 		(stroke
@@ -1992,16 +1962,6 @@
 			(type default)
 		)
 		(uuid "c3746a45-1db9-4f3e-ae25-6f1db854722a")
-	)
-	(wire
-		(pts
-			(xy 181.61 111.76) (xy 184.15 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c52f690e-9eff-4c4f-8685-d5b5bde6de1a")
 	)
 	(wire
 		(pts
@@ -2221,25 +2181,6 @@
 			(justify left top)
 		)
 		(uuid "266400cd-cb8e-45b2-9e9a-a1968e8b11dd")
-	)
-	(text_box "SW1 and SW2 should be the same physical switch with two gangs. It switches between the two sides of the mixer being two disconnected mixers, and all 6 channels being mixed together and connected to both outputs (the second combined volume control is disconnected in this configuration)."
-		(exclude_from_sim no)
-		(at 208.28 99.06 0)
-		(size 41.91 17.78)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "3b37da9f-d52a-4e74-a546-57be11504823")
 	)
 	(text_box "This is an inverting adding op-amp circuit. Due to the coupling capacitors, input signals are centered around 0, so inverting them in the process of summing them has little practical effect, and inverting adders are simpler than non-inverting adders."
 		(exclude_from_sim no)
@@ -3664,15 +3605,15 @@
 		(dnp no)
 		(uuid "815bed66-27b6-48ed-bde8-9df189145b25")
 		(property "Reference" "SW1"
-			(at 143.51 100.33 0)
+			(at 142.494 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" " Merge/Split Gang 1"
-			(at 135.128 102.87 0)
+		(property "Value" " Merge/Split"
+			(at 141.986 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,77 +3660,6 @@
 			(project "dual-mixer"
 				(path "/75bbe09e-d3db-4deb-a3ee-e9cb8f5bc484"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 189.23 109.22 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "839ad3f2-97f3-4c36-b013-b4137e3dfc15")
-		(property "Reference" "SW2"
-			(at 189.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" " Merge/Split Gang 2"
-			(at 196.088 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 189.23 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 189.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 189.23 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b115c3e-509f-4fb9-b4c5-b04513500444")
-		)
-		(pin "3"
-			(uuid "af9c01df-7261-4eaa-b35e-b627dac90fed")
-		)
-		(pin "2"
-			(uuid "79ed66c3-49c6-40bf-84a1-7e1f365aa5f7")
-		)
-		(instances
-			(project "dual-mixer"
-				(path "/75bbe09e-d3db-4deb-a3ee-e9cb8f5bc484"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -5239,6 +5109,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 161.29 148.59 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5246,7 +5117,7 @@
 		(dnp no)
 		(uuid "e130b57c-9c57-4ca6-aae8-f8396591f34e")
 		(property "Reference" "U1"
-			(at 162.306 155.448 0)
+			(at 161.29 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5125,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 162.306 157.988 0)
+			(at 161.29 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
