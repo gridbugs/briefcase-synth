@@ -2661,10 +2661,10 @@
 		)
 		(uuid "8215b3ec-24dc-4f1e-a519-cb3e49fd66ff")
 	)
-	(text_box "Envelope generator with Attack and Release dials. It has a switch to select between Attack/Release mode and Decay mode, where the Attack is fixed at 0 and the Decay is controlled by the release dial."
+	(text_box "Envelope generator with Attack and Release dials. It has a switch to select between Attack/Release mode and Decay mode, where the Attack is fixed at 0 and the Decay is controlled by the release dial. This is based on LMNC's simple envelope generator: https://www.lookmumnocomputer.com/projects#/simple-envelope-generator"
 		(exclude_from_sim no)
 		(at 15.24 15.24 0)
-		(size 43.18 15.24)
+		(size 77.47 15.24)
 		(stroke
 			(width 0)
 			(type default)
