@@ -4,7 +4,7 @@
 #include "uart.h"
 #include "adc.h"
 
-#define OUTPUT_PIN_PORTD 4
+#define OUTPUT_PIN_PORTD 2
 #define PERIOD_ADC_CHANNEL 0
 #define DUTY_ADC_CHANNEL 1
 
