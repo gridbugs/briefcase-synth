@@ -2603,6 +2603,25 @@
 		)
 		(uuid "16a1324f-5779-49c7-a10e-9187c7f21be7")
 	)
+	(text_box "The Attack potentiometer is 1/4 the resistance of the Release potentiometer because C2 seems to take longer to charge than it does to discharge. I don't understand why this is, and all similar schematics use the same values for both the Attack and Release potentiometer."
+		(exclude_from_sim no)
+		(at 181.61 16.51 0)
+		(size 36.83 20.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4f8c654e-4185-44b4-b45d-6c7f159a00e3")
+	)
 	(text_box "Gate to trigger converter"
 		(exclude_from_sim no)
 		(at 93.98 74.93 0)
@@ -2643,7 +2662,7 @@
 	)
 	(text_box "SW3A should be a second gang of the switch SW2A. It bypasses the Attack potentiometer when the envelope generator is in Decay mode. Otherwise there would be no output in Decay mode unless the Attack dial was turned all the way down."
 		(exclude_from_sim no)
-		(at 162.56 17.78 0)
+		(at 140.97 16.51 0)
 		(size 36.83 20.32)
 		(stroke
 			(width 0)
