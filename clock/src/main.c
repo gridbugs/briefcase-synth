@@ -120,7 +120,11 @@ int main(void) {
         if (count >= skip) {
             io_port_set_out_2();
             out_2_on = 1;
-            count = xorshift32() & 0xF;
+            if (is_rand()) {
+                count = xorshift32() & 0xF;
+            } else {
+                count = 0;
+            }
         } else {
             if (is_rand()) {
                 count = xorshift32() & 0xF;
