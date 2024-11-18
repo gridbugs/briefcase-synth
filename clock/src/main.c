@@ -1,15 +1,10 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <avr/io.h>
+#include "util.h"
 #include "uart.h"
 #include "adc.h"
-
-#define PERIOD_ADC_CHANNEL 0
-#define DUTY_ADC_CHANNEL 1
-
-#define SCALE_FACTOR_LOG2 10
-
-#define BIT(n) (1 << n)
+#include "timer.h"
 
 void io_port_init(void) {
     // input pins
@@ -88,6 +83,7 @@ int main(void) {
     ADC_init();
     USART0_init();
     io_port_init();
+    timer_init();
 
     // seed the rng with the position of the skip dial multiplied by a large number
     xorshift32_state = skip_10bit() * 0x123456789;
@@ -109,7 +105,7 @@ int main(void) {
         printf("\n\r");
 #endif
 
-        uint32_t period = (period_10bit() << SCALE_FACTOR_LOG2) >> speed_x();
+        uint32_t period = (period_10bit() << 6) >> speed_x();
         uint32_t duty_1 = (duty_1_10bit() * period) >> 10;
         uint32_t duty_2 = (duty_2_10bit() * period) >> 10;
         io_port_set_out_1();
@@ -132,14 +128,19 @@ int main(void) {
                 count++;
             }
         }
-        for (uint32_t i = 0; i < period; i++) {
-            if (out_1_on && i > duty_1) {
+        timer_reset();
+        while (1) {
+            uint16_t timer_value = timer_read();
+            if (out_1_on && timer_value >= duty_1) {
                 out_1_on = 0;
                 io_port_clear_out_1();
             }
-            if (out_2_on && i > duty_2) {
+            if (out_2_on && timer_value >= duty_2) {
                 out_2_on = 0;
                 io_port_clear_out_2();
+            }
+            if (timer_value >= period) {
+                break;
             }
         }
     }
