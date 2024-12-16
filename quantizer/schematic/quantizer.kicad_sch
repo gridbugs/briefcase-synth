@@ -2537,10 +2537,10 @@
 		)
 		(uuid e5880ec6-15bd-4be4-b250-cf3de758ec71)
 	)
-	(text_box "A quantizer that translates analog signals to digital values in an arduino, then back into analog signals after quantizing the values to a particular scale, selected with switches."
+	(text_box "A quantizer that translates analog signals to digital values in an arduino, then back into analog signals after quantizing the values to a particular scale, selected with switches.\n\nUses the MCP4725 DAC connected to an arduino via its I2C pins."
 		(exclude_from_sim no)
 		(at 13.97 13.97 0)
-		(size 52.07 10.16)
+		(size 52.07 16.51)
 		(stroke
 			(width 0)
 			(type default)
@@ -2964,7 +2964,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 41.91 35.56 270)
+		(at 41.91 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2973,7 +2973,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fc00e84-c952-4569-8297-d86866be196b")
 		(property "Reference" "#PWR08"
-			(at 38.1 35.56 0)
+			(at 38.1 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +2982,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 45.72 35.5599 90)
+			(at 45.72 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +2991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 35.56 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +3000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 35.56 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 41.91 35.56 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +3651,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 26.67 35.56 90)
+		(at 26.67 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3660,7 +3660,7 @@
 		(fields_autoplaced yes)
 		(uuid "89394105-48fa-4941-91fd-ffea886de105")
 		(property "Reference" "#PWR07"
-			(at 30.48 35.56 0)
+			(at 30.48 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3669,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 22.86 35.5599 90)
+			(at 22.86 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +3678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 35.56 0)
+			(at 26.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 35.56 0)
+			(at 26.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 26.67 35.56 0)
+			(at 26.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3936,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 34.29 33.02 90)
+		(at 34.29 44.45 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3945,7 +3945,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8b5fed3-736b-4c18-9704-1439cbfc069e")
 		(property "Reference" "U3"
-			(at 34.29 30.48 90)
+			(at 34.29 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3953,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 34.29 33.02 90)
+			(at 34.29 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +3961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 33.02 0)
+			(at 34.29 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +3970,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 34.29 33.02 0)
+			(at 34.29 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +3979,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 34.29 33.02 0)
+			(at 34.29 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
