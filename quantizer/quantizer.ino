@@ -69,6 +69,18 @@ int chromatic_to_fifth_and_octave(int note) {
   }
 }
 
+int cycle_octaves(int delay) {
+  static uint64_t count = 0;
+  count += 1;
+#define C1 24
+#define C2 36
+  if (((count / delay) % 2) == 0) {
+    return C1;
+  } else {
+    return C2;
+  }
+}
+
 int chromatic_to_selected_scale(int note) {
   switch (read_scale()) {
     case 0:
@@ -81,8 +93,29 @@ int chromatic_to_selected_scale(int note) {
       return chromatic_to_octave(note);
     case 4:
       return chromatic_to_fifth_and_octave(note);
+    case 5:
+      return cycle_octaves(32);
+    case 6:
+      return cycle_octaves(64);
+    case 7:
+      return cycle_octaves(128);
   }
   return note;
+}
+
+int midiNoteToDACInput(byte noteIndex) {
+    #define DAC_MAX 4095L
+    #define OUT_VOLTAGE_MAX 5L
+    #define NOTES_PER_OCTAVE 12L
+    return (int)((((long)noteIndex) * DAC_MAX) / (OUT_VOLTAGE_MAX * NOTES_PER_OCTAVE));
+}
+
+void setDAC(int value) {
+    Wire.beginTransmission(MCP4725_ADDR);
+    Wire.write(CMD_UPDATE);
+    Wire.write(value >> 4); // 8 most significant bits
+    Wire.write((value & 15) << 4); // 4 least significant bits
+    Wire.endTransmission();
 }
 
 void loop() {
@@ -99,14 +132,11 @@ void loop() {
   // Round down to the nearest semitone.
   int input_0_60_quantized = chromatic_to_selected_scale((int)floor(input_0_60));
 
-  // Convert to the range accepted by the DAC (12-bits) where 4095 is the
-  // maximum value.
-  int output = (int)(((double)input_0_60_quantized * 4095.0) / 60.0);
+  //static char buf[64];
+  //sprintf(buf, "out: %d\r\n", input_0_60_quantized);
+  //Serial.write(buf);
 
-  Wire.beginTransmission(MCP4725_ADDR);
-  Wire.write(CMD_UPDATE);
-  Wire.write(output >> 4); // 8 most significant bits
-  Wire.write((output & 15) << 4); // 4 least significant bits
-  Wire.endTransmission();
+  // Set the voltage of the DAC
+  setDAC(midiNoteToDACInput(input_0_60_quantized));
   delay(1);
 }
